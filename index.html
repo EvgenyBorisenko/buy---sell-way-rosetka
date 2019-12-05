@@ -18,27 +18,52 @@
         <div class="logo__box">
           <img src="./img/-e-logo.png" alt="logo" />
         </div>
-        <div class="header__img__box">
-          <img
-            class="img__mackbook"
-            src="./img/MacBook Pro1 1.png"
-            alt="MacBook"
-          />
-          <img class="img__drone" src="./img/drone.png" alt="drone" />
-          <img
-            class="img__light"
-            src="./img/fenix-rc11-karmannyj-fonarik 1.png"
-            alt="fonarik"
-          />
-          <img class="img__boxes" src="./img/boxes.png" alt="boxes" />
-          <img class="img__car" src="./img/car.png" alt="toy-car" />
+        <div class="header__wrapper__contant">
+          <!-- -------------------header form-------- -->
+          <div class="header__box__form">
+            <div class="header__signup__text">
+              <p>ПОЛУЧИТЬ ДОСТУП</p>
+            </div>
+            <form class="header__form">
+              <div class="header__form__wrapper">
+                <div class="header__input__box">
+                  <label>Ваше имя и фамилия </label>
+                  <input type="text" placeholder="Иван Иванов" />
+                </div>
+                <div class="header__input__box">
+                  <label>Ваш EMAIL</label>
+                  <input type="email" placeholder="exemple@email.com" />
+                </div>
+                <div class="header__input__box">
+                  <label>Ваш номер телефона с кодом страны</label>
+                  <input type="tel" placeholder="+380 (__)-___-__-__" />
+                </div>
+              </div>
+              <button class="header__button">ПОДАТЬ ЗАЯВКУ</button>
+            </form>
+          </div>
+          <div class="header__img__box">
+            <img
+              class="img__mackbook"
+              src="./img/MacBook Pro1 1.png"
+              alt="MacBook"
+            />
+            <img class="img__drone" src="./img/drone.png" alt="drone" />
+            <img
+              class="img__light"
+              src="./img/fenix-rc11-karmannyj-fonarik 1.png"
+              alt="fonarik"
+            />
+            <img class="img__boxes" src="./img/boxes.png" alt="boxes" />
+            <img class="img__car" src="./img/car.png" alt="toy-car" />
+            <h1 class="header__tittle">
+              Чтобы самостоятельно выйти <br />( зарегистрировать магазин в
+              Маркетплейсе) <br />
+              и <span class="orange__span">начать продавать на Rozetka</span>,
+              необходимо:
+            </h1>
+          </div>
         </div>
-        <h1 class="header__tittle">
-          Чтобы самостоятельно выйти <br />( зарегистрировать магазин в
-          Маркетплейсе) <br />
-          и <span class="orange__span">начать продавать на Rozetka</span>,
-          необходимо:
-        </h1>
       </div>
     </header>
     <!-- ------------------First Section--------------- -->
@@ -511,59 +536,159 @@
     <!-- ------------------Seven Section--------------- -->
     <section class="seven__section">
       <div class="container">
-        <div class="seven__section__content">
-          <div class="sign__up__webinar">
-            <p>Записаться на вебинар</p>
-          </div>
-          <form class="fourth__section__form">
-            <div class="form__wrapper">
-              <div class="input__box">
-                <label>Ваше имя и фамилия </label>
-                <input type="text" placeholder="Иван Иванов" />
-              </div>
-              <div class="input__box">
-                <label>Ваш EMAIL</label>
-                <input type="email" placeholder="exemple@email.com" />
-              </div>
-              <div class="input__box">
-                <label>Ваш номер телефона с кодом страны</label>
-                <input type="tel" placeholder="+380 (__)-___-__-__" />
-              </div>
-            </div>
-            <button class="fourth__section__button">ПОДАТЬ ЗАЯВКУ</button>
-          </form>
-          <div class="white__line"></div>
-        </div>
-        <div class="sending__docs">
-          <div class="sending__docs__box">
-            <h3 class="sending__docs__tittle">
-              <span class="number__span">6</span>
-              <p>
-                <span class="orange__span">Отправка </span>
-                документов
-              </p>
-            </h3>
-            <div class="sending__docs__text">
-              <p>
-                Если заявка подтверждена менеджером Rozetka, подготовленные
-                заранее документы Вы отправляете в электронном письме с
-                заполненной анкетой и “данными для составления договора”.
-                Шаблоны предоставляет менеджер Rozetka.
-              </p>
-            </div>
-          </div>
-          <img src="./img/image 12.png" alt="message" />
-        </div>
         <h3 class="sending__docs__second__tittle">
-          <span class="number__span">7</span>
+          <span class="number__span">6</span>
           <p>
-            Будет
-            <span class="orange__span"
-              >плюсом иметь свой интернет магазин
-            </span>
-            документов
+            <span class="orange__span">Как мы </span>
+            выводим на розетку
           </p>
         </h3>
+        <!-- ----------------shema---------------- -->
+        <div class="shema__wrapper">
+          <div class="shema__first__tab">
+            <div class="chema__block">
+              <div class="shema__item">
+                <img
+                  class="send__mail"
+                  src="./img/svg/Send mail.svg"
+                  alt="send-mail"
+                />
+              </div>
+              <p class="chema__text">Продать заявку</p>
+            </div>
+            <div class="chema__block">
+              <div class="shema__item">
+                <img
+                  class="send__mail"
+                  src="./img/svg/002-file.svg"
+                  alt="file"
+                />
+              </div>
+              <p class="chema__text">
+                Подготовить необходимые для старта документы
+              </p>
+            </div>
+            <div class="chema__block">
+              <div class="shema__item">
+                <img
+                  class="send__mail"
+                  src="./img/svg/003-shop.svg"
+                  alt="shop"
+                />
+              </div>
+              <p class="chema__text">
+                Необходимо создать имя Вашего будущего магазина на Rozetka
+              </p>
+            </div>
+            <div class="chema__block">
+              <div class="shema__item">
+                <img
+                  class="send__mail"
+                  src="./img/svg/004-zynga.svg"
+                  alt="zynga"
+                />
+              </div>
+              <p class="chema__text">
+                Подготовить логотип размером 946 х 354 пикселей, 300 dpi
+                (формат: PNG или JPG).
+              </p>
+            </div>
+          </div>
+          <img
+            class="arrow__vector"
+            src="./img/Vector 7.png"
+            alt="vector-arrow"
+          />
+          <!-- ---second-- -->
+          <div class="shema__second__tab">
+            <div class="chema__block">
+              <div class="shema__item">
+                <img
+                  class="send__mail"
+                  src="./img/svg/005-price-list.svg"
+                  alt="price-list"
+                />
+              </div>
+              <p class="chema__text">
+                Создать прайс-лист YML формата (мин. кол-во товара 60 ед., лучше
+                200 ед. и более).
+              </p>
+            </div>
+            <div class="chema__block ">
+              <div class="shema__item">
+                <img class="send" src="./img/svg/006-send.svg" alt="send" />
+              </div>
+              <p class="chema__text">Отправка документов</p>
+            </div>
+
+            <div class="chema__block chema__block__bottom">
+              <div class="shema__item">
+                <img
+                  class="online__shop"
+                  src="./img/svg/007-online-shop.svg"
+                  alt="shop"
+                />
+              </div>
+              <p class="chema__text">
+                Будет плюсом иметь свой интернет магазин с плагином YML
+              </p>
+            </div>
+          </div>
+          <!-- ---------------------shema------------- -->
+          <div class="seven__section__content">
+            <div class="sign__up__webinar">
+              <p>Записаться на вебинар</p>
+            </div>
+            <form class="fourth__section__form">
+              <div class="form__wrapper">
+                <div class="input__box">
+                  <label>Ваше имя и фамилия </label>
+                  <input type="text" placeholder="Иван Иванов" />
+                </div>
+                <div class="input__box">
+                  <label>Ваш EMAIL</label>
+                  <input type="email" placeholder="exemple@email.com" />
+                </div>
+                <div class="input__box">
+                  <label>Ваш номер телефона с кодом страны</label>
+                  <input type="tel" placeholder="+380 (__)-___-__-__" />
+                </div>
+              </div>
+              <button class="fourth__section__button">ПОДАТЬ ЗАЯВКУ</button>
+            </form>
+            <div class="white__line"></div>
+          </div>
+          <div class="sending__docs">
+            <div class="sending__docs__box">
+              <h3 class="sending__docs__tittle">
+                <span class="number__span">7</span>
+                <p>
+                  <span class="orange__span">Отправка </span>
+                  документов
+                </p>
+              </h3>
+              <div class="sending__docs__text">
+                <p>
+                  Если заявка подтверждена менеджером Rozetka, подготовленные
+                  заранее документы Вы отправляете в электронном письме с
+                  заполненной анкетой и “данными для составления договора”.
+                  Шаблоны предоставляет менеджер Rozetka.
+                </p>
+              </div>
+            </div>
+            <img src="./img/image 12.png" alt="message" />
+          </div>
+          <h3 class="sending__docs__second__tittle">
+            <span class="number__span">8</span>
+            <p>
+              Будет
+              <span class="orange__span"
+                >плюсом иметь свой интернет магазин
+              </span>
+              документов
+            </p>
+          </h3>
+        </div>
       </div>
     </section>
     <!----------------footer--------------------->

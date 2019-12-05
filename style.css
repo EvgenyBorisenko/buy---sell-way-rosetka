@@ -7,7 +7,7 @@
 
 .header {
   width: 100%;
-  height: 806px;
+  height: 950px;
   background-image: url('./img/bg.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,8 +15,87 @@
 .container {
   width: 1150px;
 }
-.logo__box {
+.header__wrapper__contant {
+  display: flex;
   margin-bottom: 30px;
+}
+/* ---header form-- */
+.header__box__form {
+  width: 400px;
+  margin-right: 118px;
+}
+.header__signup__text {
+  width: 100%;
+  background-image: url('./img/Layer\ 6583\ 1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0px 30px 40px rgba(75, 86, 127, 0.25);
+}
+.header__signup__text p {
+  padding: 30px;
+  text-align: center;
+  width: 399px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.header__form {
+  width: 400px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background: #ffffff;
+  border-radius: 0px 0px 10px 10px;
+}
+.header__input__box input {
+  width: 380px;
+  height: 60px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding-left: 25px;
+}
+.header__input__box label {
+  font-weight: 300;
+  width: 390px;
+  font-size: 14px;
+  margin: 0 auto;
+  line-height: 37px;
+  text-align: center;
+}
+/* .header__input__box::placeholder {
+  padding-left: 25px;
+} */
+.header__input__box {
+  width: 380px;
+  margin: 0 auto;
+}
+.header__form__wrapper {
+  margin-bottom: 25px;
+}
+
+.header__button {
+  display: block;
+  width: 380px;
+  height: 60px;
+  background: linear-gradient(90deg, #fc4647 0%, #f06603 100%);
+  box-shadow: 0px 10px 30px rgba(252, 70, 71, 0.6);
+  border-radius: 40px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 54px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #edeed4;
+  margin: 0 auto;
+}
+/* ----------------form-------- */
+.logo__box {
+  margin-bottom: 80px;
   padding-top: 30px;
 }
 .header__img__box {
@@ -26,44 +105,42 @@
 }
 .img__mackbook {
   display: block;
-  /* position: relative; */
-  padding-left: 35%;
   z-index: 2;
+  margin-bottom: 115px;
 }
 .img__drone {
   position: absolute;
-  left: 69%;
+  left: 56%;
   width: 311px;
-  top: 67%;
+  top: 64%;
   z-index: 3;
 }
 .img__car {
   position: absolute;
-  left: 20%;
+  left: -26%;
   width: 464px;
   top: 24%;
   z-index: 2;
 }
 .img__boxes {
   position: absolute;
-  width: 350px;
-  left: 81%;
-  top: 40%;
+  width: 320px;
+  left: 62%;
+  top: 48%;
   z-index: 1;
 }
 .img__light {
   position: absolute;
-  left: 92%;
-  top: 76%;
+  left: 80%;
+  top: 79%;
   z-index: 3;
 }
 .header__tittle {
   font-style: normal;
   font-weight: 400;
-  font-size: 34px;
+  font-size: 28px;
   line-height: 46px;
   color: #ffff;
-  padding-left: 32%;
   margin: 0 auto;
 }
 .orange__span {
@@ -544,6 +621,78 @@
 .possibility__image9 {
   background: linear-gradient(125.2deg, #7684c0 0%, #03bdef 100%);
 }
+
+/* ---shema--- */
+.shema__wrapper {
+  width: 1100px;
+}
+.shema__first__tab {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.shema__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.shema__desription {
+  width: 1000px;
+  display: flex;
+  margin: 0 auto;
+}
+.chema__block {
+  position: relative;
+  width: 200px;
+  justify-content: center;
+}
+.chema__block::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url(./img/svg/blue-arrow.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 88%;
+  top: 14%;
+}
+.chema__block:nth-of-type(4)::after {
+  display: none;
+}
+.chema__block__bottom:nth-of-type(3)::after {
+  display: none;
+}
+.chema__text {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.shema__item {
+  margin-bottom: 20px;
+}
+.arrow__vector {
+  padding-left: 15%;
+  margin-bottom: 20px;
+}
+/* ---second-- */
+.shema__second__tab {
+  width: 1100px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+/* ---shema--- */
 /* ----------------Seven section---------------- */
 .seven__section {
   width: 100%;
@@ -611,6 +760,7 @@
   font-weight: bold;
   font-size: 30px;
   line-height: 40px;
+  margin-bottom: 40px;
 }
 /*  ============ Footer ============  */
 .footer {
@@ -717,6 +867,7 @@ hr {
 }
 .footer input {
   background-color: transparent;
+  color: #dbdbdb;
 }
 .footer label {
   color: #fff;
@@ -725,3 +876,12 @@ hr {
 .input__box ::placeholder {
   color: #999999;
 }
+
+/* @media (max-width: 600px) {
+  .container {
+    max-width: 600px;
+  }
+  .header {
+    width: 100%;
+  }
+} */
